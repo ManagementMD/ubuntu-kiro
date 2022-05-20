@@ -18,12 +18,4 @@ tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -
 echo Username: LittleFox
 echo Password: 6454@nili
 echo You can login now
-apt install git
-apt install nodejs
-apt install ffmpeg
-apt install imagemagick
-git clone https://github.com/AyGemuy/TheMystic-Bot
-cd TheMystic-Bot
-npm install
-npm start
 ping -n 10 127.0.0.1 >nul
