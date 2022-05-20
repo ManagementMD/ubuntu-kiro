@@ -42,8 +42,4 @@ jobs:
     - name: 8. Waktu Proses
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/AyGemuy/ngrok-rdp/main/resources/loop.ps1 -OutFile loop.ps1
-        Invoke-WebRequest https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z -OutFile ffmpeg.7z
-        Expand-Archive ffmpeg.7z ffmpeg
-        setx /m PATH "C:\ffmpeg\bin;%PATH%"
-        git clone https://github.com/AyGemuy/TheMystic-Bot && cd TheMystic-Bot && npm install && node .
         ./loop.ps1
